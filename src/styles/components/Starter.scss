@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+button {
+  margin-top: 3rem;
+  background-image: $primaryGradient;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.main-container {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+    margin-left: 10rem;
+    .hero-container {
+      margin-top: 2rem;
+      h1 {
+        font-size: 5rem;
+      }
+    }
+    .hero-image {
+      img {
+        height: 29rem;
+      }
+    }
+  }
+}
